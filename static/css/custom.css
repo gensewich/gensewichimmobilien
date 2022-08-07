@@ -14,3 +14,22 @@
 .box-simple {
     min-height: 230px;
 }
+
+/* Change carousel background image */
+.home-carousel {
+    position: relative;
+    background: url('../img/lucessantiagofb.jpg') center center repeat;
+}
+
+
+.bar.background-image-fixed-1 {
+    background: url('../img/fixed-background-1.jpg') center top no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+  }
+
+.bar.background-image-fixed-2 {
+    background: url('../img/lucessantiagofb.jpg') center top no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+  }

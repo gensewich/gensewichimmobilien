@@ -98,8 +98,8 @@ pluralizelisttitles = false
 
 [params]
     viewMorePostLink = "/blog/"
-    author = "DevCows"
-    defaultKeywords = ["devcows", "hugo", "go"]
+    author = "Carolina"
+    defaultKeywords = ["Gensewich Immobilien", "hugo", "go"]
     mainSections = ["blog"]
     defaultDescription = "Site template made by Devcows using Hugo"
 
@@ -163,7 +163,7 @@ pluralizelisttitles = false
     disabled_logo = false
     logo_text = "Gensewich Immobilien"
 
-    logo = "img/logo.png"
+    logo = "img/logo-grande-gi.png"
     logo_small = "img/logo-small.png"
     contact_url = "/contact"
     address = """<p class="text-uppercase"><strong>Gensewich Immobilien</strong>
@@ -230,27 +230,34 @@ pluralizelisttitles = false
     title = "Testimonials"
     subtitle = "We have worked with many clients and we always like to hear they come out from the cooperation happy and satisfied. Have a look what our clients said about us."
 
-[params.see_more]
-    enable = true
-    icon = "far fa-file-alt"
-    title = "Do you want to see more?"
-    subtitle = "We have prepared for you more than 40 different HTML pages, including 5 variations of homepage."
-    link_url = "#"
-    link_text = "Check other homepages"
+
 
 [params.clients]
     enable = true
     # All clients are defined in their own files. You can find example items
     # at 'exampleSite/data/clients'.
     # For more information take a look at the README.
-    title = "Our Clients"
+    title = "Nuestros clientes"
     subtitle = ""
+
+
 
 [params.recent_posts]
     enable = true
-    title = "From our blog"
-    subtitle = "Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo."
+    title = "Proyectos recientes"
+    subtitle = "Conoce nuestras ofertas de ventas y arriendo. Lorem ipsum dolor sit amet, consectetur adipiscing elit. In mauris nulla, vestibulum vel auctor sed, posuere eu lorem. Aliquam consequat augue ut accumsan mollis. Suspendisse malesuada sodales tincidunt. Vivamus sed erat ac augue bibendum porta sed id ipsum. Ut mollis mauris eget ligula sagittis cursus. Aliquam id pharetra tellus. Pellentesque sed tempus risus. Proin id hendrerit ante. Vestibulum vitae urna ut mauris ultricies dignissim."
     hide_summary = false
+
+
+[params.see_more]
+    enable = true
+    icon = "far fa-file-alt"
+    title = "Necesita corretaje?"
+    subtitle = "Ofrecemos servicios de corretaje en La Florida y otras partes de Santiago"
+    link_url = "#"
+    link_text = "Facebook"
+
+
 
 [params.footer.recent_posts]
     enable = true
